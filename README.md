@@ -1,23 +1,21 @@
-==============================================================================
 AI SEO NAVIGATOR - SETUP & RUN INSTRUCTIONS
-==============================================================================
 
 This project uses a Hybrid Architecture:
 1. Backend: Python (FastAPI + Machine Learning)
 2. Frontend: React (Modern UI)
 3. AI Brain: Ollama (Llama 3.2)
 
-------------------------------------------------------------------------------
+
 PHASE 1: PREREQUISITES
-------------------------------------------------------------------------------
+
 Before starting, ensure the target laptop has these 3 things installed:
 1. Python (v3.9 or higher)
 2. Node.js (Latest LTS version)
 3. Ollama (For the AI Consultant)
 
-------------------------------------------------------------------------------
+
 PHASE 2: FIRST-TIME INSTALLATION
-------------------------------------------------------------------------------
+
 (Do this only ONCE when you copy the project to a new laptop)
 
 STEP 1: Install Python Libraries
@@ -38,9 +36,8 @@ STEP 3: Download the AI Model
    > Open a terminal and run:
      ollama pull llama3.2
 
-------------------------------------------------------------------------------
+
 PHASE 3: HOW TO RUN (DAILY USAGE)
-------------------------------------------------------------------------------
 Once installed, you can launch the entire system with one click.
 
 1. Open Terminal in the main project folder.
@@ -51,9 +48,9 @@ Once installed, you can launch the entire system with one click.
    * This will automatically start the React Frontend.
    * Your browser will open the App automatically.
 
-------------------------------------------------------------------------------
+
 TROUBLESHOOTING
-------------------------------------------------------------------------------
+
 1. "Ollama connection failed":
    Make sure the Ollama app is actually running in the background (check taskbar).
 
